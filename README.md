@@ -1,7 +1,7 @@
 bicing
 =========
 
-Node package that returns the list of bicing stations.
+Node package that returns the list of Bicing stations.
 
 ## Installation
 
