@@ -25,6 +25,11 @@ const get = () => {
           }
         })
 
+        result.stations.forEach((station) => {
+          station.latitude = +station.latitude
+          station.longitude = +station.longitude
+        })
+
         return result
       }
 
